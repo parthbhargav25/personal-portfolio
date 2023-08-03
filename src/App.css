@@ -42,12 +42,6 @@ nav ul li {
 }
 
 .navbar-brand {
-  color:var(--primary-orange) !important;
-  font-size: 2rem;
-  
-  text-transform: uppercase;
-
-
    max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important; 
@@ -132,10 +126,10 @@ nav ul li {
 }
 
 /*-------- PARTICLES JS ---------------*/
-/* .tsparticles-canvas-el {
+ .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
-} */
+} 
 
