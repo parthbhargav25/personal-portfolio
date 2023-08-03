@@ -42,9 +42,9 @@ nav ul li {
 }
 
 .navbar-brand {
-   max-width: 17.25rem;
+  max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important; 
+  height: 6rem !important;
 }
 
 @media(max-width: 768px) {
@@ -126,10 +126,15 @@ nav ul li {
 }
 
 /*-------- PARTICLES JS ---------------*/
- .tsparticles-canvas-el {
+.tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
-} 
+}
 
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
