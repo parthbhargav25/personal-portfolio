@@ -14,17 +14,7 @@ const AboutMe = () => {
             <div className="col-lg-6 col-xm-12">
                 <h1 className="about-heading">about me</h1>
             <p>
-            Hello! I am Parth Bhargav. I am Student of  Master's Of Computer Application at Acropolis Institute Of Technologi & Research Indore (M.P.). I'm  a Web  Developer. Technologies I use is  ReactJS. 
-
-            I create responsive websites that are displayed on all devices desktops and smartphones.
-
-            Of course, before I begin developing any webapp, Landing Page, Business Website or E-commerce, I need to have a ready-made project layout (sketch).
-
-            And I’m ready to do this for you, before we start developing your website, we will discuss all the  details of your niche with you, I will conduct a survey of your competitors and make a list of their advantages and weaknesses.
-
-            All this is necessary to give your customers something that your competitors do not provide, or to present it too, but better!
-
-            After the website is finished and ready to deploy and sell a product or service. It is essential that your potential clients know about you. I will create an advertising campaign for you in  Google Adwords and Facebook!
+            Hello! I am Parth Bhargav, a dedicated individual currently pursuing an MCA degree with a passion for technology. Proficient in programming languages like C, C++, and Java, I excel in logical thinking and problem-solving. Alongside, I possess strong web development skills, mastering HTML, CSS, JavaScript, and React to build captivating user interfaces. I am committed to continuous learning, staying updated with the latest tech trends through online communities and events. As a team player with excellent communication skills, I collaborate effectively with others to bring innovative ideas to life. Beyond coding, I enjoy nature, reading, and sports like football and badminton, which provide a balanced and creative lifestyle. With an ever-growing thirst for knowledge and a determination to make a mark in the software development industry, I am poised to leave a positive impact and contribute significantly to the tech world.  After the website is finished and ready to deploy and sell a product or service. It is essential that your potential clients know about you. I will create an advertising campaign for you in  Google Adwords and Facebook!
           </p>
             </div>
             
