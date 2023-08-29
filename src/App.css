@@ -336,7 +336,7 @@ border: 1px solid var(--primary-orange);
 }
 
 .portfolio-image-box {
-  position: relative;
+  position:relative;
   margin: 1rem;
 }
 
