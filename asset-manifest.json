@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.c4187251.css",
-    "main.js": "/personal-portfolio/static/js/main.a8b38f66.js",
+    "main.js": "/personal-portfolio/static/js/main.4ad6ff5d.js",
     "static/js/496.1cae6965.chunk.js": "/personal-portfolio/static/js/496.1cae6965.chunk.js",
-    "static/media/netflix.png": "/personal-portfolio/static/media/netflix.5a78c4b980990001021b.png",
     "static/media/city-guide-app.png": "/personal-portfolio/static/media/city-guide-app.e4843bd01dc4d1634538.png",
-    "static/media/portfolio.png": "/personal-portfolio/static/media/portfolio.e4d369bc88d9501b6330.png",
+    "static/media/portfolio2.png": "/personal-portfolio/static/media/portfolio2.e663ea68d01212a031b9.png",
+    "static/media/amazon.png": "/personal-portfolio/static/media/amazon.54ec01de00b58302f9d4.png",
     "static/media/testimonials-bg.jpg": "/personal-portfolio/static/media/testimonials-bg.75612be74ca26cb2eee2.jpg",
     "static/media/ME.jpg": "/personal-portfolio/static/media/ME.1ee339b5f3f418c981dc.jpg",
     "static/media/wall-and-laptop-background.jpg": "/personal-portfolio/static/media/wall-and-laptop-background.f9e274f49e7f72950a2f.jpg",
@@ -15,11 +15,11 @@
     "static/media/avatar-2.png": "/personal-portfolio/static/media/avatar-2.75d8f23ea5e97b4d897d.png",
     "index.html": "/personal-portfolio/index.html",
     "main.c4187251.css.map": "/personal-portfolio/static/css/main.c4187251.css.map",
-    "main.a8b38f66.js.map": "/personal-portfolio/static/js/main.a8b38f66.js.map",
+    "main.4ad6ff5d.js.map": "/personal-portfolio/static/js/main.4ad6ff5d.js.map",
     "496.1cae6965.chunk.js.map": "/personal-portfolio/static/js/496.1cae6965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4187251.css",
-    "static/js/main.a8b38f66.js"
+    "static/js/main.4ad6ff5d.js"
   ]
 }
