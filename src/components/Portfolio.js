@@ -1,7 +1,7 @@
 import React from "react";
 import portfolio from "../images/portfolio2.png";
 import amazon from "../images/amazon.png";
-import cityGuide from "../images/city-guide-app.png";
+import tictactoe from "../images/tictactoe.png";
 /*Fontawesome Imports*/
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -53,21 +53,21 @@ const Portfolio = () => {
   }
   
    
-     //CityGuideProject
-     const openPopupboxCityGuide = () => {
+     //TicTacToeProject
+     const openPopupboxtictactoe = () => {
       const content=(
           <>
-          <img className="portfolio-image-popupbox" src={cityGuide}  alt="CityGuide project"/> 
-          <p>Persnol Portfolio Project created using Bootstarp & ReactJs, Which has different components which showcase my persnol details , skills and contact information.</p>
-          <b>GitHub:</b><a className="hyper-link" onClick={() => window.open("https://github.com/parthbhargav25/personal-portfolio")}>https://github.com/parthbhargav25/personal-portfolio</a>
+          <img className="portfolio-image-popupbox" src={tictactoe}  alt="Tic-Tac-Toe project"/> 
+          <p>Developed a classic Tic Tac Toe Game ,providing users with an interactive and enjoyable gaming experience.</p>
+          <b>GitHub:</b><a className="hyper-link" onClick={() => window.open("https://parthbhargav25.github.io/Tic-Tac-Toe")}>https://parthbhargav25.github.io/Tic-Tac-Toe/</a>
         </> 
       )
      PopupboxManager.open({content})
   }
-  const popupboxConfigCityGuide = {
+  const popupboxConfigtictactoe = {
       titleBar: {
           enable: true,
-          text: " Project."
+          text: "Tic-Tac-Toe Game"
       },
       fadeIn: true,
       fadeInSpeed : 500
@@ -92,8 +92,8 @@ const Portfolio = () => {
                  <FontAwesomeIcon className ="portfolio-icon" icon={faSearchPlus}/>
                  </div>
             {/*-*/}
-             <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
-                 <img className="portfolio-image" src={cityGuide} alt="City Guid project..."/>
+             <div className="portfolio-image-box" onClick={openPopupboxtictactoe}>
+                 <img className="portfolio-image" src={tictactoe} alt="tictactoe..."/>
                  <div className="overflow"></div>
                  <FontAwesomeIcon className ="portfolio-icon" icon={faSearchPlus}/>
               </div>
@@ -103,7 +103,7 @@ const Portfolio = () => {
         </div>
         <PopupboxContainer {...popupboxConfigAmazon} />
         <PopupboxContainer {...popupboxConfigPortfolio}/>
-        <PopupboxContainer {...popupboxConfigCityGuide}/>
+        <PopupboxContainer {...popupboxConfigtictactoe}/>
 
      </div>
   )

@@ -1,46 +1,48 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faCloudflare } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   return (
     <div id="services" className="services">
-      <h1 className="py-5">my services</h1>
+      <h1 className="py-5">my skills</h1>
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode}size="2x" /></div>
+              <h3>Coding Languages</h3>
+              <p>C, JAVA, Python also familiar with C++</p>
+            </div>
+          </div>
+          {/* - */}
+          <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
-              <h3>Web Design</h3>
-              <p>I approach each project individually and always focus on the result.</p>
+
+              <h3>Web Technologies</h3>
+              <p>HTML, CSS, JavaScript, ReactJS</p>
             </div>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
+             
 
-              <h3>Web Development</h3>
-              <p>Your website will be build with an new proven technologies.</p>
+              <h3>Databases Technologies</h3>
+              <p>SQL</p>
             </div>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" /></div>
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faCloudflare} size="2x" /></div>
+             
 
-              <h3>Facebook Ads SMM</h3>
-              <p>Your potential clients well see your services or product on Facebook</p>
-            </div>
-          </div>
-          {/* - */}
-          <div className="col-lg-3 col-md-6 col-sm-6">
-            <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x" /></div>
-
-              <h3>Google Ads</h3>
-              <p>Your service or product will appear at the top of the Google search</p>.
+              <h3>Cloud Technology</h3>
+              <p>Familiar with AWS</p>.
               </div>
           </div>
         </div>
