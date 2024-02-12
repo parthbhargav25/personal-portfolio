@@ -67,7 +67,7 @@ const Portfolio = () => {
   const popupboxConfigtictactoe = {
       titleBar: {
           enable: true,
-          text: "Tic-Tac-Toe Game"
+          text: "Projects"
       },
       fadeIn: true,
       fadeInSpeed : 500
